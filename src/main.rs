@@ -1,3 +1,8 @@
+struct cli {
+    pattern: String,
+    path: std::path::PathBuf,
+}
+
 fn main() {
     let pattern = std::env::args()
         .nth(1)
